@@ -922,8 +922,10 @@ img {
   background-origin: border-box;
   border-color: var(--accent-color);
 }
-.modal-form-agreement-input a {
+.modal-form-agreement-link {
+  text-decoration: none;
   color: var(--accent-color);
+  border-bottom: 1px solid var(--accent-color);
 }
 
 .modal-form-checkbox {
