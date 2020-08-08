@@ -239,8 +239,9 @@ img {
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: var(--accent-color);
+  background-color: #188ce8;
   color: #ffffff;
+  cursor: pointer;
 }
 
 /* ПОЧЕМУ МЫ */
@@ -959,6 +960,9 @@ img {
   cursor: pointer;
 }
 
+.modal-form-submit-btn:hover {
+  background-color: #188ce8;
+}
 .is-hidden {
   opacity: 0;
   visibility: hidden;
